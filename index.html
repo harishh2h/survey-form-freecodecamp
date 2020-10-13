@@ -1,0 +1,74 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body class="over">
+    <form  class="form" id="survey.form">
+        
+    <h1 id="title">Why you Hate school</h1>
+    <p id="description">Thank you for taking the time to say you hate school </p>
+
+    <div id="survey-form">
+        <label for="name" id="name-label"></label>
+        <p>  Enter Name </p>
+        <input type="text" id="name" name="name" placeholder="  Enter Name"><br>
+        <label for="email" id="email-label"></label>
+        <p>Enter email</p>
+        <input type="email" id="email" name="email" placeholder="  Enter Email for ads :D"><br>
+        <label for="age" id="number-label"></label>
+        <p>Enter Age</p>
+        <input type="number"id="number" name="Age" min="10" max="99" placeholder="  Enter age">
+        
+        <div >
+            <p>Are you finished school now?</p>
+            <select name="study" id="dropdown">
+                <option disabled selected value>select Yes or NO</option>
+                <option value="YES">Yes :(</option>
+                <option value="NO">NO :)</option>
+            </select>
+         </div>
+         <p>Do you enjoyed school ?</p>
+         <div  id="radio">
+            
+            <input type="radio" name="Yes" value="Yes">
+            <label for="Yes">YES</label>
+            <input type="radio" name="NO" value="NO">
+            <label for="NO">NO</label>
+         </div>
+         <p>why you went to school</p>
+         <div  id="checkbox">
+           
+            <input type="checkbox" name="friends" value="friends">
+            <label for="friends"> for Friends</label>
+            <input type="checkbox" name="bored in home" value="bored">
+            <label for="bored in home">bored in home</label>
+            <input type="checkbox" name="TO LEARN" value="TO LEARN">
+            <label for="TO LEARN"> TO LEARN</label>
+
+         </div>
+         <div  id="textarea">
+            <p>write 500 words about "why you hate school"</p>
+            <textarea name="comment" id="comments" ></textarea>
+         </div>
+
+         <div >
+
+            <button type="button" id="submit" class="submit-button">close your school</button>
+         </div>
+
+
+    </div>
+
+    </form>
+    <div id="last">
+        <p> only for fun.This doesn't close school</p>
+    </div>
+
+</body>
+
+</html>
